@@ -5,9 +5,11 @@ class Navbar extends React.Component{
     render () {
         return (
             <div className='Nav'>
-                <a>Cup</a>
-                <a>Boxcar</a>
-                <a>Product</a>
+                <ul className="innerNav">
+                <li><a>Cup</a></li>
+                <li><a>Boxcar</a></li>
+                <li><a>Product</a></li>
+                </ul>
             </div>
         )
     }

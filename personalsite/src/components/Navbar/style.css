@@ -1,11 +1,26 @@
-.Nav {
-    border: 1px ;
-    display: flex;
-    margin-bottom: 10px;
-    text-align: center;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
 };
 
-.Nav a {
-    border: 1px;
-    flex-grow: 1;
+.innverNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    width: 100%;
+    text-align: center;
 }
+
+li {
+    float: left;
+};
+
+li a {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+};
