@@ -4,10 +4,11 @@ import './style.css';
 class Navbar extends React.Component{
     render () {
         return (
-            <nav>
+            <div className='Nav'>
                 <a>Cup</a>
                 <a>Boxcar</a>
-            </nav>
+                <a>Product</a>
+            </div>
         )
     }
 }

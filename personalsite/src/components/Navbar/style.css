@@ -1,8 +1,11 @@
 .Nav {
+    border: 1px ;
     display: flex;
+    margin-bottom: 10px;
     text-align: center;
 };
 
 .Nav a {
+    border: 1px;
     flex-grow: 1;
 }
