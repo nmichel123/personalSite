@@ -3,15 +3,16 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    width: 100%;
+    display: inline-block;
+    text-align: center;
+    /* width: 100%; */
 };
 
 .innverNav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
 }
 
